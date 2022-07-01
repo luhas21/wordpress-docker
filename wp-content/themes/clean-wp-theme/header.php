@@ -6,16 +6,16 @@
     <body>
         <header class="site-header">
             <div class="container">
-            <h1 class="school-logo-text float-left"><a href="<?php echo site_url('') ?>"><strong>SPEEL-NET</strong></a></h1>
+            <h1 class="school-logo-text float-left"><a href="<?php echo site_url('') ?>"><strong><?php echo get_bloginfo('name') ?></strong></a></h1>
             <span class="js-search-trigger site-header__search-trigger"><i class="fa fa-search" aria-hidden="true"></i></span>
             <i class="site-header__menu-trigger fa fa-bars" aria-hidden="true"></i>
             <div class="site-header__menu group">
                 <nav class="main-navigation">
                 <ul>
-                    <li><a href="#">Nástěnka</a></li>
-                    <li><a href="#">Akce</a></li>
-                    <li><a href="#">Docházka</a></li>
-                    <li><a href="#">Přítomnost</a></li>
+                    <li><a href="#">Nabídka 1</a></li>
+                    <li><a href="#">Nabídka 2</a></li>
+                    <li><a href="#">Nabídka 3</a></li>
+                    <li><a href="#">Nabídka 4</a></li>
                 </ul>
                 </nav>
             </div>  
