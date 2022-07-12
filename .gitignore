@@ -1,6 +1,6 @@
 .DS_Store
-upgrade
-uploads
+/wp-content/upgrade
+/wp-content/uploads
 /wp-content/themes/twentytwenty
 /wp-content/themes/twentytwentyone
 /wp-content/themes/twentytwentytwo
