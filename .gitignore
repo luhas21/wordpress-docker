@@ -4,5 +4,12 @@ wp-content/uploads
 wp-content/themes/twentytwenty
 wp-content/themes/twentytwentyone
 wp-content/themes/twentytwentytwo
-wp-content/plugins
+wp-content/plugins/advanced-custom-fields
+wp-content/plugins/classic-editor
+wp-content/plugins/theatre
+wp-content/plugins/akismet
+wp-content/plugins/hello-dolly
+wp-content/plugins/index.php
+wp-content/plugins/hello.php
 wp-content/languages
+tmp

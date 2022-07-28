@@ -16,7 +16,7 @@ services:
   wordpress:
     depends_on:
       - db
-    image: wordpress:6-php8.1-apache
+    image: wordpress:6.0.1-php8.1-apache
     ports:
       - "8000:80"
     restart: always
@@ -28,5 +28,6 @@ services:
     volumes:
       - ./wp-content:/var/www/html/wp-content
       - ./uploads.ini:/usr/local/etc/php/conf.d/uploads.ini
+      - ./tmp:/tmp
 volumes:
   db_data:

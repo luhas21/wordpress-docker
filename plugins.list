@@ -1,22 +1,6 @@
 # Basic required plugins
-https://downloads.wordpress.org/plugin/disable-wordpress-updates.zip
-https://downloads.wordpress.org/plugin/advanced-custom-fields.5.8.3.zip
-https://downloads.wordpress.org/plugin/thumbnail-upscale.1.1.zip
-https://downloads.wordpress.org/plugin/regenerate-thumbnails.3.1.1.zip
-https://downloads.wordpress.org/plugin/default-media-uploader-view.1.0.8.zip
-https://static.goout.net/wordpress-plugins/wp-stateless.zip
-
-# GoOut-made plugins that enable convenient caching through Cloudflare CDN
-https://static.goout.net/wordpress-plugins/cloudflare.zip
-https://static.goout.net/wordpress-plugins/disable-unwanted-wordpress-features.zip
-https://static.goout.net/wordpress-plugins/edit-on-title.zip
+https://downloads.wordpress.org/plugin/advanced-custom-fields.5.12.3.zip
+https://downloads.wordpress.org/plugin/navz-photo-gallery.1.6.5.zip
 
 # Localization and its necessary requirements
-https://github.com/qtranslate/qtranslate-xt/archive/3.6.2.zip
-https://downloads.wordpress.org/plugin/loco-translate.2.3.0.zip
 https://downloads.wordpress.org/plugin/classic-editor.1.5.zip
-
-# Specific plugins
-https://downloads.wordpress.org/plugin/posts-to-posts.1.6.5.zip
-https://github.com/slimndap/wp-theatre/archive/refs/tags/v0.8.3.zip
-https://downloads.wordpress.org/plugin/navz-photo-gallery.1.6.5.zip
