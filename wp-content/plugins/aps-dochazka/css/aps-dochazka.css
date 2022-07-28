@@ -227,6 +227,7 @@ span.svatek-datum {
 /* Table style */
 .tabulka {
   width: 100%;
+  max-width: 800px;
   display: grid;
   grid-template-columns: 1tr;
   text-align: center;  
@@ -351,6 +352,15 @@ span.svatek-datum {
     display:none;
   }
 }
+
+
+#pritomnost table, #pritomnost th, #pritomnost td {
+  border: 1px solid black;
+}
+#pritomnost th {
+  cursor: pointer;
+}
+
 /* End of table style */
 
 

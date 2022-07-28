@@ -65,6 +65,8 @@ function aps_doch_pritomnost() {
       <?php } ?>
 
       <!-- Výpis tabulky přítomnosti ze systému-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
         <div class="tabulka">
             <table id="pritomnost" width="100%">
             <th>Os.č.</th>
