@@ -353,10 +353,7 @@ span.svatek-datum {
   }
 }
 
-
-#pritomnost table, #pritomnost th, #pritomnost td {
-  border: 1px solid black;
-}
+// Řazení tabulky přítomnosti podle sloupců
 #pritomnost th {
   cursor: pointer;
 }
