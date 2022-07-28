@@ -363,6 +363,10 @@ span.svatek-datum {
   cursor: pointer;
 }
 
+.pritomen{
+    display: none;
+}
+
 /* End of table style */
 
 

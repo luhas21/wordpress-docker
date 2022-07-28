@@ -116,9 +116,9 @@ function aps_doch_pritomnost() {
                       $kde = $vyskyty[0];
                       $kolik = $vyskyty[1];
                     if($d_pritomnost[$kde][1])
-                      echo "&#x2705";
+                      echo "<span class='pritomen'>0</span>&#x2705";
                     else
-                      echo "&#x274C";
+                      echo "<span class='pritomen'>1</span>&#x274C";
                     ?></td>
                   </tr>
                 <?php
