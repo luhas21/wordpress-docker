@@ -1,4 +1,6 @@
-.DS_Store
+**.DS_Store
+wp-content/.DS_Store
+wp-config.php
 wp-content/upgrade
 wp-content/uploads
 wp-content/themes/twentytwenty

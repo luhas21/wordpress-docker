@@ -227,6 +227,7 @@ span.svatek-datum {
 /* Table style */
 .tabulka {
   width: 100%;
+  max-width: 800px;
   display: grid;
   grid-template-columns: 1tr;
   text-align: center;  
@@ -351,6 +352,21 @@ span.svatek-datum {
     display:none;
   }
 }
+
+// Řazení tabulky přítomnosti podle sloupců
+
+#pritomnost table, #pritomnost th, #pritomnost td {
+  border: 0 solid white;
+}
+
+#pritomnost th {
+  cursor: pointer;
+}
+
+.pritomen{
+    display: none;
+}
+
 /* End of table style */
 
 

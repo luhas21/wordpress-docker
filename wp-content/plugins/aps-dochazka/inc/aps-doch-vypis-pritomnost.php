@@ -65,6 +65,8 @@ function aps_doch_pritomnost() {
       <?php } ?>
 
       <!-- Výpis tabulky přítomnosti ze systému-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
         <div class="tabulka">
             <table id="pritomnost" width="100%">
             <th>Os.č.</th>
@@ -114,9 +116,9 @@ function aps_doch_pritomnost() {
                       $kde = $vyskyty[0];
                       $kolik = $vyskyty[1];
                     if($d_pritomnost[$kde][1])
-                      echo "&#x2705";
+                      echo "<span class='pritomen'>0</span>&#x2705";
                     else
-                      echo "&#x274C";
+                      echo "<span class='pritomen'>1</span>&#x274C";
                     ?></td>
                   </tr>
                 <?php
