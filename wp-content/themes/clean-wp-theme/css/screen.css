@@ -70,7 +70,7 @@ a {
 .container {
   max-width: 960px;
   margin: 0 auto;
-  overflow: hidden;
+  //overflow: hidden;
 }
 
 @media screen and (min-width: 1280px) {
@@ -126,6 +126,8 @@ header a {
 .site-nav li {
   list-style: none;
   margin-right: 5px;
+	display: flex;
+  position: relative;
 }
 
 .site-nav a {
@@ -157,6 +159,37 @@ header a {
   .site-nav li {
     width: 50%;
   }
+}
+
+.sub-menu {
+  background-color: #365267;
+  position: absolute;
+  top: 48px;
+  width: 180px;
+}
+
+ul.sub-menu {
+  display: none;
+}
+
+.sub-menu li {
+  border-bottom: 3px solid #405c71;
+}
+
+.menu-item:hover ul.sub-menu {
+  display: block;
+}
+
+.sub-menu a {
+  width: 180px;
+}
+
+.site-nav .current_page_item > a,
+.site-nav .current-menu-item > a,
+.site-nav .current-menu-parent > a,
+.site-nav .current-cat > a {
+  color: #608699;
+  background-color: #2c465a;
 }
 
 /* End Site Navigation */

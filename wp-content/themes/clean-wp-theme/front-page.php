@@ -6,7 +6,7 @@
         <!-- row -->
         <div class="row">
         <!-- col -->
-        <div class="col col-md-8 push-down-sm">
+        <div class="col col-md-9 push-down-sm">
             <h2>Welcome to the Front page!</h2>
 
             <!-- row -->
@@ -99,13 +99,8 @@
         </div>
         <!-- /col -->
             <!-- col -->
-            <div class="col col-md-4 sidebar">
-                <h3>Sidebar Heading</h3>
-                <p>Sidebar Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-
-                <p>Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+            <div class="col col-md-3 sidebar">
+                <?php dynamic_sidebar( 'primary' ); ?>
             </div>
             <!-- /col -->
         </div>
