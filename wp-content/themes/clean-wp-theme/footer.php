@@ -1,7 +1,7 @@
-<footer class="site-footer">
-  
-</footer>
 
-<?php wp_footer(); ?>
-</body>
+            <footer>
+            <p>&copy; 2022 - pedro@luhas.cz</p>
+            </footer>
+        <?php wp_footer(); ?>
+    </body>
 </html>

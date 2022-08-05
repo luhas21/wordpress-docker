@@ -107,6 +107,10 @@ header p {
   margin: 0;
 }
 
+header a {
+  color: #fff;
+}
+
 /* Site Navigation */
 .site-nav {
   margin-top: 20px;
