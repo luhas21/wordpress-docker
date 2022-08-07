@@ -178,10 +178,13 @@ ul.sub-menu {
 
 .menu-item:hover ul.sub-menu {
   display: block;
+  z-index: 777;
+
 }
 
 .sub-menu a {
   width: 180px;
+  z-index: 777;
 }
 
 .site-nav .current_page_item > a,
