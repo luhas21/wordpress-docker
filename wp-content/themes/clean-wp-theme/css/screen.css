@@ -1,4 +1,5 @@
 /* Custom Fonts */
+/*
 @font-face {
   font-family: "PTSans";
   src: url("fonts/PT-Sans.eot");
@@ -30,7 +31,7 @@
   font-weight: bold;
   font-style: italic;
 }
-
+*/
 html {
   background-color: #608699;
   line-height: 1.7;
@@ -113,7 +114,7 @@ header a {
 
 /* Site Navigation */
 .site-nav {
-  margin-top: 20px;
+  margin: 21px 0;
 }
 
 .site-nav ul {
@@ -152,6 +153,7 @@ header a {
     margin-right: 5px;
     margin-bottom: 5px;
     text-align: center;
+    min-width: 180px;
   }
 }
 
@@ -161,10 +163,17 @@ header a {
   }
 }
 
+@media screen and (max-width: 512px) {
+  .site-nav li {
+    width: 100%;
+    flex-flow: row;
+  }
+}
+
 .sub-menu {
   background-color: #365267;
   position: absolute;
-  top: 48px;
+  top: 46px;
   width: 180px;
 }
 
@@ -258,17 +267,33 @@ ul.sub-menu {
   box-sizing: border-box;
 }
 
-.col-xs-11 {width: 91.662%}
-.col-xs-10 {width: 83.332%;}
-.col-xs-9 {width: 75%;}
-.col-xs-8 {width: 66.662%;}
-.col-xs-7 {width: 58.331%}
-.col-xs-6 {width: 50%;}
-.col-xs-5 {width: 41.662%}
-.col-xs-4 {width: 33.332%;}
-.col-xs-3 {width: 25%;}
-.col-xs-2 {width: 16.662%;}
-.col-xs-1 {width: 8.332%;}
+
+.col-xxs-11 {width: 91.662%}
+.col-xxs-10 {width: 83.332%;}
+.col-xxs-9 {width: 75%;}
+.col-xxs-8 {width: 66.662%;}
+.col-xxs-7 {width: 58.331%}
+.col-xxs-6 {width: 50%;}
+.col-xxs-5 {width: 41.662%}
+.col-xxs-4 {width: 33.332%;}
+.col-xxs-3 {width: 25%;}
+.col-xxs-2 {width: 16.662%;}
+.col-xxs-1 {width: 8.332%;}
+
+@media screen and (min-width: 512px) {
+
+  .col-xs-11 {width: 91.662%}
+  .col-xs-10 {width: 83.332%;}
+  .col-xs-9 {width: 75%;}
+  .col-xs-8 {width: 66.662%;}
+  .col-xs-7 {width: 58.331%}
+  .col-xs-6 {width: 50%;}
+  .col-xs-5 {width: 41.662%}
+  .col-xs-4 {width: 33.332%;}
+  .col-xs-3 {width: 25%;}
+  .col-xs-2 {width: 16.662%;}
+  .col-xs-1 {width: 8.332%;}
+}
 
 @media screen and (min-width: 768px) {
   .row {
